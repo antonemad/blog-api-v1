@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "multer": "^2.0.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^3.1.10"
+  },
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Blog API using nodejs and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "js"
+  ],
+  "author": "Anton",
+  "license": "ISC"
+}
